@@ -39,3 +39,35 @@
             <button class="btn">Join US</button>
             </div>
         </div>
+</header>
+    <section id="about">
+        <div class="about-row">
+            <div class="about-left-col">
+                <h1>About<span id="blue"> Site</span></h1>
+                <p id="p-title">Gym responsive Site</p>
+                <p>Exercise Is Immensely Beneficial To Your Life And Should Be Incorporated Into Your Weekly Routine. It’s Vital For Staying Fit, Improving Your Overall Well-Being, And Lowering Your Chance Of Health Concerns, Especially As You Age.</p>
+            <button class="cbt">Read more</button>
+            </div>
+            <div class="about-right-col">
+              <img src="images/gym1.jpg">
+            </div>
+        </div>
+    </section>
+<section id="signup">
+    <div class="signup-row">
+        <div class="signup-left-col">
+            <img src="images/gym2.jpg">
+        </div>
+        <div class="signup-right-col">
+            <h1>Being<span id="blue">Body</span></h1>
+            <h2>BUILDER</h2>
+            <button class="c-btn">Signup</button>
+        </div>
+    </div>
+
+</section>
+<section id="services">
+    <div class="services-info">
+     <h1>Our<span id="blue"> services</span></h1>
+     <p>What we provide</p>
+          
