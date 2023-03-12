@@ -70,4 +70,65 @@
     <div class="services-info">
      <h1>Our<span id="blue"> services</span></h1>
      <p>What we provide</p>
-          
+            </div>
+        <div class="services-row">
+            <div class="services-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <h2>cardio</h2>
+                <p>Doing gym increase productivity</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <h2>Weights</h2>
+                <p>Doing gym increase productivity</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <h2>Diet</h2>
+                <p>Doing gym increase productivity</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <h2>personal coach</h2>
+                <p>Doing gym increase productivity</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <h2>certifiactions</h2>
+                <p>Doing gym increase productivity</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <h2>zumbasss</h2>
+                <p>Doing gym increase productivity</p>
+            </div>
+        </div>
+  
+
+</section>
+<section id="contact">
+    <div class="services-info">
+        <h1>Get in<span id="blue"> Touch</span></h1>
+        <p>We are available</p>
+    </div>
+    <div class="contact-row">
+        <div class="contact-left">
+            <div class="form">
+                <input type ="text" name="" placeholder="E-mail">
+                <input type ="text" name="" placeholder="Subject"><br> 
+                <textarea rows="10" cols="40" placeholder="message"></textarea><br>
+                <button class=c-btn>Send</button>
+            </div>
+        </div>
+        <div class="contact-right">
+            <h1><i class="fa-solid fa-envelope"></i>Email</h1><p>abcd@gmail.com</p>
+            <h1><i class="fa-solid fa-phone"></i>Phone Number</h1><p>987654332</p>
+            <br>
+            <h1><i class="fa-regular fa-location-dot"></i>Address</h1><p>dehradun,near yamuna nagar</p>
+        </div>
+    </div>
+
+</section>
+<footer><hr>Document by GAURAV RAWAT<hr></footer>
+</body>
+</html>
