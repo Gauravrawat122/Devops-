@@ -133,3 +133,40 @@ clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 88%,0% 100%);
    color:rgba(0,0,0,0.3);
    margin: 10px 0px;
 }
+#services{
+   padding:50px 0px;
+}
+.services-info{
+   text-align: center;
+}.services-info{
+   text-align: center;
+}.services-info p{
+   font-size:25px;
+   font-weight:bold;
+}
+.services-info h1{
+   font-size:50px;
+}
+.services-row{
+   display:grid;
+   grid-template-columns:repeat(3,200px);
+   grid-auto-rows:minmax(150px,auto) ;
+   grid-gap:3em;
+   justify-content: center;
+
+}
+.services-box{
+   box-shadow: 2px 3px 5px grey;
+   padding: 10px;
+   text-align: center;
+}
+.services-box i{
+   background:#0984e3;
+   color:rgb(240, 231, 231);
+   font-size:30px;
+   padding:10px;
+   margin-top: auto;
+}
+#contact{
+   padding:30px 0px;
+}
