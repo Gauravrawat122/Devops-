@@ -46,3 +46,66 @@ nav{
    flex-basis: 50%;
    max-width: 500px;
  }
+.right h1{
+ color:#74b9ff;
+ font-size: 50px;
+ }
+ .right p{
+   font-size: 25px; 
+   margin:10px 0px;
+ }
+ .adjust{
+   color: black;
+ }
+ .btn{
+   background:transparent;
+   padding: 10px 20px;
+   color: #74b9ff;
+   border: 1px solid#74b9ff;
+   border-radius: 8px;
+ }
+#about{
+   padding:100px 0px;
+}
+.about-row{
+   width:100%;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   clip-path: polygon(0% 0%,100% 0%,100% 100%,% 88%,0% 100%);
+}
+.about-left-col{
+   flex-basis: 50%;
+}
+.about-right-col {
+   flex-basis: 50%;
+   text-align:center;
+}
+.about-right-col img{
+   width:80%;
+}
+.about-left-col{
+   max-width:400px;
+   margin:auto;
+}
+.about-left-col h1{
+   font-size:50px;
+}
+.about-left-col p{
+   font-size:20px;
+   text-align:justify;
+   margin:15px 0px;
+}
+.c-btn{
+   padding:10px;
+   margin:10px 0px;
+   color:aliceblue;
+   border:none;
+   background:#74b9ff;
+}
+#signup{
+   padding-top:50px ;
+   padding-bottom:20px;
+   background:reba(0,0,0,0.03);
+clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 88%,0% 100%);
+}
