@@ -109,3 +109,27 @@ nav{
    background:reba(0,0,0,0.03);
 clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 88%,0% 100%);
 }
+.signup-row{
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+}
+.signup-left-col{
+   flex-basis:50%;
+   text-align: center;
+}
+.signup-left-col img{
+   width: 60%;
+}
+.signup-right-col{
+   flex-basis:50%;
+}
+.signup-right-col h1{
+   font: size 90px;
+}
+.signup-right-col h2{
+   font: size 45px;
+   letter-spacing: 60px;
+   color:rgba(0,0,0,0.3);
+   margin: 10px 0px;
+}
