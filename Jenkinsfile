@@ -11,7 +11,7 @@ pipeline {
          stage('Test  & Analysis') {
             steps {
                 echo 'Testing Application'
-                with SonarQubeEnv('sonarqube') {
+                withSonarQubeEnv('sonarqube') {
                     sh "mvn sonar:sonar"
                 
                 }
