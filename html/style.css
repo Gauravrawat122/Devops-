@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box ;
+}
+body{
+    margin:0px;
+}
+header{
+    padding:50px;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    background-image:url("cbum.imm.jpg") ;
+    background-size: 200px ;
+}
+header h1{
+    font-size: 50px;
+}
+nav{
+    background-color: grey;
+    overflow:hidden;
+   
+}
+nav a{
+    display:block;
+    color: aliceblue;
+    text-decoration: none;
+    padding:14px 20px;
+    float:left;
+}
+section{
+    text-align: center;
+    padding-top: 80px;
+    min-height: 40vh;
+}
+footer{
+    background-color: grey;
+    overflow:hidden;
+   
+}
+footer a{
+    display:block;
+    color: aliceblue;
+    text-decoration: none;
+    padding:14px 20px;
+    float:left;
+}
+section h2 span{
+    background: linear-gradient(to right,yellow,blue);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color:aliceblue;
+}
+section h3 span{
+    background: linear-gradient(to right,black,grey);
+    padding: 10px 55px;
+    border-radius: 15px;
+    color:aliceblue;
+
+}
+  .carousel-cell {
+    width: 66%;
+   
+    margin-right: 10px;
+  
+    border-radius: 5px;
+  }
+  .carousel-cell iframe{
+    max-width: 100%;
+  }
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 */
+    position: relative;
+    width:100%;
+    height:50%;
+  } 
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  } s 
+  
+ 
+  
