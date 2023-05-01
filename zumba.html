@@ -1,93 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Workout Generator</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f0f0f0;
-		}
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		h1 {
-			margin: 0;
-		}
-		main {
-			margin: 20px;
-			padding: 20px;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0,0,0,0.1);
-		}
-		form {
-			display: flex;
-			flex-wrap: wrap;
-			align-items: center;
-			justify-content: center;
-			margin-bottom: 20px;
-		}
-		label {
-			margin-right: 10px;
-		}
-		input[type="number"] {
-			padding: 5px;
-			margin-right: 10px;
-		}
-		button {
-			padding: 10px;
-			background-color: #333;
-			color: #fff;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-		}
-		button:hover {
-			background-color: #555;
-		}
-		ul {
-			list-style-type: none;
-			padding: 0;
-			margin: 0;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-		li {
-			padding: 10px;
-			margin: 10px;
-			background-color: #eee;
-			box-shadow: 0 0 5px rgba(0,0,0,0.2);
-			border-radius: 5px;
-			flex-basis: 250px;
-			text-align: center;
-		}
-	</style>
+	<title>Zumba Help Website</title>
+	<link rel="stylesheet" type="text/css" href="zumba.css">
 </head>
+
 <body>
 	<header>
-		<h1>Workout Generator</h1>
+		<h1>Zumba Help Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Zumba</a></li>
+				<li><a href="#">Zumba Classes</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
 	</header>
 	<main>
-		<form>
-            <label for="Age">Age:</label>
-			<input type="number" id="Age" name="age" min="10" max="100" value="18">
-            <label for="duration">Duration:</label>
-			<input type="number" id="duration" name="duration" min="1" max="120" value="30">
-			<label for="Gender">Gender:</label>
-			<select id="gender" name="gender">
-				<option value="Male">Male</option>
-				<option value="Female">Female</option>
-				<option value="Others">Others</option>
-			</select>
-			<button type="submit" id="btn6">Generate Workout</button>
-		</form>
-		<ul id="workout-list">
-			<!-- Generated workout exercises will go here -->
-		</ul>
+		<section>
+			<h2>Welcome to our Zumba Help Website!</h2>
+			<p>Here you'll find information about Zumba, our classes, and how to contact us if you have any questions or concerns.</p>
+		</section>
+		<section>
+			<h2>About Zumba</h2>
+			<p>Zumba is a fun and energetic dance fitness program that combines Latin and international music with easy-to-follow dance moves. It's a great way to get in shape and have fun at the same time!</p>
+		</section>
+		<section>
+			<h2>Zumba Classes</h2>
+			<p>Check out our schedule of Zumba classes and sign up today! We offer classes for all skill levels, from beginner to advanced.</p>
+			<ul>
+				<li>Monday - Zumba Basics (6:00pm-7:00pm)</li>
+				<li>Wednesday - Zumba Toning (7:00pm-8:00pm)</li>
+				<li>Friday - Zumba Kids (4:00pm-5:00pm)</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Contact Us</h2>
+			<p>If you have any questions or concerns, please don't hesitate to contact us!</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
 	</main>
-    <script src="index.js"></script>
+	<footer>
+		<p>&copy; 2023 Zumba Help Website</p>
+	</footer>
 </body>
+<style></style>
 </html>
