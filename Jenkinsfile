@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Application'
-                sh 'mvn clean install -f html.html'
+                bat 'mvn clean install -f html.html'
                 
             }
         }
