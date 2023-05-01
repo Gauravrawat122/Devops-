@@ -6,17 +6,12 @@ pipeline {
     
     }
     stages {
+        
         stage('Build') {
             steps {
                 echo 'Building Application'
-                sh 'mvn -Dmaven.test.failure.ignore=true install'
-                post {
-                    success{
-                        junit 'target/surefire-reports/**/*.xml' 
-                    
-                    }
+                sh 'mvn clean install -f html.html'
                 
-                }
             }
         }
         
@@ -24,7 +19,7 @@ pipeline {
             steps {
                 echo 'Testing Application'
                 withSonarQubeEnv('sonarqube') {
-                    sh "mvn sonar:sonar"
+                    sh "mvn sonar:sonar -f html.html"
                 
                 }
             }
