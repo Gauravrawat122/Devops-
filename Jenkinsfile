@@ -5,14 +5,26 @@ pipeline {
         jdk 'jdk'
     
     }
-    stages {
-        stage('Build') {
+    
+    stage ('Initialize') {
             steps {
-                echo 'Building Application'
                 sh '''
                     echo "PATH = ${PATH}"
                     echo "M2_HOME = ${M2_HOME}"
                 '''
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building Application'
+                sh 'mvn -Dmaven.test.failure.ignore=true install'
+                post {
+                    success{
+                        junit 'target/surefire-reports/**/*.xml' 
+                    
+                    }
+                
+                }
             }
         }
         
