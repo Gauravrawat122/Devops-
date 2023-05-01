@@ -5,7 +5,7 @@ pipeline {
         jdk 'jdk'
     
     }
-    
+    stages {
     stage ('Initialize') {
             steps {
                 sh '''
@@ -44,4 +44,5 @@ pipeline {
             }
         }
     }
+}
 
