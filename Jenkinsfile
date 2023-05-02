@@ -6,13 +6,13 @@ pipeline {
    }
    
    stages {
-      stage( 'Build Artifact') {
+      stage( 'Building Application') {
          steps {
           sh "mvn clean package -DskipTests=true" 
            archive 'target/*.jar'
           }
       }
-      stage('Test Maven JUnit') {
+      stage('Testing Maven JUnit') {
          steps {
            sh "mvn test"
          }
@@ -37,10 +37,8 @@ pipeline {
         }
        stage('Deploy') {
             steps {
-                // Start the Docker Compose stack
-                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',credentialsId: 'yash']])
-                    sh "docker-compose build"
-                    sh "docker-compose up -d"
+                
+                echo "Deploying application"
                 }
             }
         }
